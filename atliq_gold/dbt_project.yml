@@ -24,4 +24,4 @@ models:
     gold:
       +materialized: table
       +file_format: delta
-      +location_root: "abfss://lakehouse@atliqcommercestorage.dfs.core.windows.net/gold"
+      +location_root: "{{ env_var('DBT_LOCATION_ROOT', 'abfss://lakehouse@atliqcommercestorage.dfs.core.windows.net/gold') }}"
