@@ -1,0 +1,12 @@
+atliq_gold:
+  target: dev
+
+  outputs:
+    dev:
+      type: databricks
+      host: "adb-7405612678169014.14.azuredatabricks.net"
+      http_path: "/sql/1.0/warehouses/c1a027589ea7c6d2"
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      catalog: dbw_atliq_capstone
+      schema: gold
+      threads: 4
