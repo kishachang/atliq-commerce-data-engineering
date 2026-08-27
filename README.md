@@ -874,3 +874,5 @@ This project demonstrates practical implementation of:
 **Name:** Jonathan Kisha  
 **Project:** AtliQ Commerce End-to-End Data Engineering Capstone  
 **Programme:** CodeBasics Data Engineering for Data Analysts Course
+
+<!-- CI validation test -->
